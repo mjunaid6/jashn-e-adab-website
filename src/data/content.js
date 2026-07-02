@@ -113,10 +113,10 @@ export const statistics = [
 ];
 
 export const founderData = {
-  name: 'Dr. Khurshid Imam',
+  name: 'Kunwar Ranjeet Singh Chauhan',
   title: 'Founder & Director, Jashn-e-Adab',
   portrait: null,
-  bio: `Dr. Khurshid Imam is the visionary founder of Jashn-e-Adab, India's largest and most prestigious literary and cultural movement. A poet, author, and cultural activist, he has dedicated his life to preserving and promoting the rich heritage of Urdu poetry, Hindi literature, and India's diverse cultural traditions.
+  bio: `Kunwar Ranjeet Singh Chauhan is the visionary founder of Jashn-e-Adab, India's largest and most prestigious literary and cultural movement. A poet, author, and cultural activist, he has dedicated his life to preserving and promoting the rich heritage of Urdu poetry, Hindi literature, and India's diverse cultural traditions.
 
 Under his leadership, Jashn-e-Adab has grown from a humble gathering of poets to a national movement spanning 50+ cities, touching millions of hearts, and bringing together legendary artists, emerging voices, and passionate audiences.
 

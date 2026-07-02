@@ -152,7 +152,7 @@ export default function Hero() {
       {/* ================================================
           Content
           ================================================ */}
-      <div className="relative z-10 container-premium flex flex-col items-center text-center px-4">
+      <div className="relative z-10 container-premium flex flex-col items-center text-center px-4 gap-5 md:gap-8">
         {/* Pre-heading — Devanagari script */}
         <span className="hero-preheading text-hindi text-secondary text-sm md:text-base tracking-[0.35em] uppercase mb-6 opacity-0">
           जश्न-ए-अदब
@@ -197,7 +197,7 @@ export default function Hero() {
       {/* ================================================
           Floating Urdu couplet — Ghalib
           ================================================ */}
-      <div
+      {/* <div
         className="hero-couplet absolute bottom-24 right-6 md:right-16 lg:right-24 max-w-xs md:max-w-sm opacity-0 pointer-events-none select-none"
         aria-hidden="true"
       >
@@ -207,7 +207,7 @@ export default function Hero() {
         >
           ہزاروں خواہشیں ایسی کہ ہر خواہش پے دم نکلے
         </p>
-      </div>
+      </div> */}
 
       {/* ================================================
           Scroll indicator

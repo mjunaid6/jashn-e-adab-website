@@ -63,11 +63,11 @@ export default function LegendaryGuests() {
           <div className="relative">
             {/* Carousel viewport */}
             <div className="overflow-hidden" ref={emblaRef}>
-              <div className="flex gap-6">
+              <div className="flex -ml-6">
                 {legendaryGuests.map((guest) => (
                   <div
                     key={guest.id}
-                    className="flex-[0_0_300px] md:flex-[0_0_350px] min-w-0"
+                    className="flex-[0_0_300px] md:flex-[0_0_350px] min-w-0 pl-6"
                   >
                     {/* Guest Card */}
                     <article

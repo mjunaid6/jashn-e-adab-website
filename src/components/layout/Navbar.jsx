@@ -163,7 +163,7 @@ export default function Navbar() {
               <button
                 onClick={() => setLangOpen((v) => !v)}
                 className={`
-                  flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-xs font-medium
+                  flex items-center gap-2 px-2.5 py-1.5 rounded-full text-xs font-medium
                   transition-colors duration-300 cursor-pointer
                   ${
                     scrolled
@@ -194,7 +194,7 @@ export default function Navbar() {
                     role="listbox"
                     aria-label="Language options"
                     className="
-                      absolute right-0 mt-2 w-40 py-1.5 rounded-xl overflow-hidden
+                      absolute right-0 w-40 rounded-xl overflow-hidden 
                       bg-white dark:bg-dark-card shadow-lg border border-border dark:border-dark-border
                     "
                   >
@@ -208,7 +208,7 @@ export default function Navbar() {
                             setLangOpen(false);
                           }}
                           className={`
-                            w-full flex items-center justify-between px-4 py-2 text-sm
+                            w-full flex items-center px-4 py-2 justify-between text-sm
                             transition-colors cursor-pointer
                             ${
                               language === lang.code

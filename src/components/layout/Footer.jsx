@@ -248,18 +248,18 @@ export default function Footer() {
 
       {/* ===================== URDU COUPLET ===================== */}
       <div className="container-premium pb-8">
-        <div className="border-t border-white/10 pt-8">
+        <div className="border-t border-white/10">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-40px' }}
             transition={{ duration: 0.6 }}
-            className="text-center space-y-2"
+            className="py-5 text-center space-y-2"
           >
             <p className="text-urdu text-secondary text-lg sm:text-xl" dir="rtl">
               {footerUrduCouplet.urdu}
             </p>
-            <p className="text-white/40 text-xs italic">
+            <p className="text-white/40 text-sm italic">
               {footerUrduCouplet.english} — {footerUrduCouplet.poet}
             </p>
           </motion.div>
@@ -267,17 +267,10 @@ export default function Footer() {
       </div>
 
       {/* ===================== BOTTOM BAR ===================== */}
-      <div className="border-t border-white/10">
-        <div className="container-premium py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-white/40 text-xs">
+      <div className="flex justify-center items-center h-20 border-t border-white/10">
+          <p className="text-white/40 text-sm">
             {t('footer.copyright')}
           </p>
-          <p className="text-white/30 text-xs flex items-center gap-1.5">
-            Made with
-            <Heart size={12} className="text-secondary/60 fill-secondary/60" aria-hidden="true" />
-            for the love of literature
-          </p>
-        </div>
       </div>
     </footer>
   );
